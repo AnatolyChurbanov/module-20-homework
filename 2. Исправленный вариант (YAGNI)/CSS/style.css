@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(201, 154, 120, 0.5);
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    background-color: #d0d1d3;
+    background: url('https://unsplash.com/photos/jLwVAUtLOAQ/download?ixid=MnwxMjA3fDB8MXxzZWFyY2h8MjF8fGJhY2tncm91bmQlMjB3ZWIlMjBzaXRlfGVufDB8fHx8MTY2Nzc4MzAzNA&force=true&w=1920') bottom no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    color: #94694a;
+    font-size: 4rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+}
+
+span {
+    color: #0085a1;
+    text-transform: uppercase;
+}
+
+.new h2:first-of-type:before {
+    content: 'New';
+    padding-right: 10px;
+    color: #0085a1;
+    text-transform: uppercase;
+}
+
+section:nth-child(odd) {
+    background: rgb(148, 105, 74, 0.5);
+}
+
+.news {
+    background-color:  rgb(201, 154, 120, 0.03);
+    padding: 50px 16px 32px;
+    width: 800px;
+    max-width: 100%;
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.article {
+    width: 768px;
+    margin: 0 auto 32px;
+    padding: 6px 15px;
+    border-bottom: 1px solid rgb(128, 128, 128);
+}
+
+article a {
+    color: rgb(33, 37, 41);
+    text-decoration: none;
+}
+
+article h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.article-meta {
+    color: rgb(134, 142, 150);
+    margin-bottom: 5px;
+}
+
+article img {
+    width: 800px;
+    height: 300px;
+    object-fit: cover;
+}
+
+footer {
+    padding-top: 20px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+footer .links {
+    margin-bottom: 50px;
+}
+
+footer .links > a {
+    color: #636b6f;
+    padding: 0 25px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.copyright {
+    color: rgb(108, 117, 125);
+    font-family: 'Times New Roman', Times, serif;
+}
